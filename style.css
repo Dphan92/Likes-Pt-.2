@@ -1,0 +1,129 @@
+.container{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid black;
+}
+.topnav{
+    height: 150px;
+    width: 600px;
+    margin: auto;
+}
+.topnav1{
+    height: 75px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.topnav1 h2{
+    margin-left: 20px;
+}
+.topnav2{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+.column1{
+    height: 300px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 200px;
+    border: 3px solid black;
+}
+.column2{
+    height: 600px;
+    width: 442px;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 150px;
+    width: 442px;
+    border: 3px solid black;
+}
+.row1{
+    width: inherit;
+    height: 75px;
+}
+.row2{
+    width: inherit;
+    height: 75px;
+}
+.row2 p{
+    margin-left: 20px;
+}
+.col1{
+    height: inherit;
+    width: 190px;
+    display: inline-block;
+}
+.col1 h3{
+    margin-left: 20px;
+}
+.col2{
+    height: inherit;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+}
+.col3{
+    height: inherit;
+    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+}
+.col3 button{
+    position:relative;
+    top:30%; 
+    left:30%; 
+}
+button{
+    background-color: orange;
+    color: black;
+    height: 40%;
+    width: 40%;
+}
+.box2{
+    height: 150px;
+    width: 442px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+.box3{
+    height: 150px;
+    width: 442px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+.section1{
+    width: inherit;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.section2{
+    width: inherit;
+    height: 75px;
+    text-align: center;
+}
+.section2 h4{
+    text-decoration: underline;
+    color: blue;
+}
+.section3{
+    width: inherit;
+    height: 75px;
+    text-align: center;
+}
+.section3 h2{
+    position: relative;
+    top: -50px;
+}
+h4{
+    display: inline;
+}
